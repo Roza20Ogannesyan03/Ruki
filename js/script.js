@@ -60,7 +60,7 @@ if (document.querySelector('.cookie')) {
 const rez = document.querySelector('.modal');
 const black = document.querySelector('.PermalinkOverlay');
 
-document.querySelector('.number').addEventListener('click', function () {
+document.querySelector('.feedback-btn').addEventListener('click', function () {
   rez.style.display = 'block';
   black.classList.add('black');
 });
